@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/smokerA/smokerA.iml" filepath="$PROJECT_DIR$/smokerA/smokerA.iml" />
-      <module fileurl="file://$PROJECT_DIR$/smokerB/smokerB.iml" filepath="$PROJECT_DIR$/smokerB/smokerB.iml" />
-      <module fileurl="file://$PROJECT_DIR$/smokerC/smokerC.iml" filepath="$PROJECT_DIR$/smokerC/smokerC.iml" />
       <module fileurl="file://$PROJECT_DIR$/tabacco_monitor.iml" filepath="$PROJECT_DIR$/tabacco_monitor.iml" />
     </modules>
   </component>

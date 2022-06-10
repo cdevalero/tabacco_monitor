@@ -1,0 +1,14 @@
+fumadores:
++ ingrediente_propio✅
++ ingredientes_cigarro✅
+
+-buscar_ingrediente()✅
+-pedir_ingrediente()✅
+-fumar()✅
+
+
+Vendedor:
+-colocar_ingredientes()✅
+
+Servidor (Bancos):
++ ingrediente✅
