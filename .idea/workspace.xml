@@ -2,24 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a928b10-8302-493e-82dc-dc9be7cf0764" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hoja de ruta.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/benches/Bench.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/benches/Matches.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/benches/Paper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/benches/Tobacco.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sellers/Seller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/smokers/Smoker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/smokers/SmokerMatches.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/smokers/SmokerPaper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/smokers/SmokerTobacco.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/smokerA/smokerA.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/smokerB/smokerB.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/smokerC/smokerC.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Smoker.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/benches/Bench.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/benches/Bench.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sellers/Seller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sellers/Seller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/smokers/Smoker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/smokers/Smoker.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +55,14 @@
       <recent name="benches" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="tabacco_monitor" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main" />
       <module name="tabacco_monitor" />
@@ -78,6 +72,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.main" />
       </list>
     </recent_temporary>
@@ -118,7 +113,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/smokers/Smoker.java</url>
-          <line>44</line>
+          <line>32</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>

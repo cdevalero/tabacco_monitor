@@ -20,25 +20,13 @@ public abstract class Smoker {
         this.seller = seller;
         this.benches = benches;
         this.attempt = 2;
-        ingredient = ingredient.toLowerCase();
-        if (ingredient.equals("tabaco") || ingredient.equals("papel") || ingredient.equals("fosforos")){
-            this.ownIngredient = ingredient;
-            this.ingredients.add(this.ownIngredient);
-        }else{
-            throw new RuntimeException("The name of the ingredient is *" + ingredient +"* and only 'tabaco', 'papel' or 'fosforos' is allowed");
-        }
+        this.ownIngredient = ingredient;
+        this.ingredients.add(this.ownIngredient);
     }
 
 
     public void addIngredient(String ingredient){
-        ingredient = ingredient.toLowerCase();
-        if (new HashSet<>(this.ingredients).contains(ingredient)){
-            throw new RuntimeException("Ingredient: *" + ingredient +"* repeated");
-        } else if (!(new HashSet<>(this.completeCigar()).contains(ingredient))) {
-            throw new RuntimeException("The name of the ingredient is *" + ingredient +"* and only 'tabaco', 'papel' or 'fosforos' is allowed");
-        } else{
-            this.ingredients.add(ingredient);
-        }
+        this.ingredients.add(ingredient);
     }
 
     public void toSmoke() throws InterruptedException {
@@ -46,7 +34,7 @@ public abstract class Smoker {
             this.ingredients.clear();
             this.ingredients.add(this.ownIngredient);
             System.out.println("Fumando un cigarro...");
-            Thread.sleep(200); // cambiar por wait ➡ https://es.stackoverflow.com/questions/1374/cu%C3%A1l-es-la-diferencia-entre-wait-y-sleep-en-java
+            Thread.sleep(2000);
             System.out.println("Termine de fumar, a por otro.");
         }
     }

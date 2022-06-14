@@ -7,15 +7,14 @@ import java.util.List;
 import java.util.Random;
 
 public class Seller {
-
     private final List<Bench> benches;
     private final List<String> ingredients = new ArrayList<>();
     private final int size;
 
     public Seller(List<Bench> benches){
         this.ingredients.add("tabaco");
-        this.ingredients.add(("papel"));
-        this.ingredients.add(("fosforos"));
+        this.ingredients.add("papel");
+        this.ingredients.add("fosforos");
         this.size = this.ingredients.size() -1;
         this.benches = benches;
     }
@@ -37,6 +36,7 @@ public class Seller {
         for (Bench bench : this.benches) {
             for (String ingredient : ingredientsToSell) {
                 if (ingredient.equals(bench.ingredient)) {
+                    System.out.println("Voy a agregar "+ ingredient);
                     bench.add();
                 }
             }
